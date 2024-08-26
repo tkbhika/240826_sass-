@@ -1,0 +1,23 @@
+html, body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.top {
+  font-weight: bold;
+}
+.top-ttl {
+  color: #000000;
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.top-tx {
+  text-align: left;
+  font-size: 1rem;
+}
+.top-tx span {
+  color: #ff0000;
+}

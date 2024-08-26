@@ -1,0 +1,17 @@
+@use "../setting/" as *;
+
+@mixin ttl {
+  color: $base-color;
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+@mixin p1 {
+  text-align: left;
+  font-size: 1rem;
+}
+

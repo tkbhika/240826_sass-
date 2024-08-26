@@ -1,0 +1,25 @@
+@use "../global/" as g;
+
+html {
+  background-color: g.$base-color;
+  color: g.$font-color;
+}
+
+body {
+  @extend html;
+}
+
+.top {
+  font-weight: bold;
+  
+  &-ttl {
+      @include g.ttl;
+  }
+  &-tx {
+      @include g.p1;
+    span {
+      color: g.$accent-color;
+    }
+  }
+}
+
